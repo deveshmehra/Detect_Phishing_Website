@@ -8,7 +8,7 @@ import whois
 
 def category3(website):
         
-    file_obj = open(r'D:\AI\week3\Phishing\phishing5.txt','a')
+    file_obj = open(r'phishing5.txt','a')
     file_obj.closed
     match_web = re.search('(.[\w]+[-`]*.com)',website)
     if match_web:
