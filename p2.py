@@ -3,7 +3,7 @@ import whois
 
 def category2(website):
         
-    file_obj = open(r'D:\AI\week3\Phishing\phishing5.txt','a')
+    file_obj = open(r'phishing5.txt','a')
     #8 Domain Registration Length
     page = whois.whois(website)
     if type(page.expiration_date) == list:
