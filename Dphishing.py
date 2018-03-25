@@ -11,7 +11,7 @@ import p4
 import pandas as pd
 #import numpy as np
 
-website = str(input("Enter website name=> "))
+website = str(input("Enter website url : "))
 p1.category1(website)
 p2.category2(website)
 p3.category3(website)
