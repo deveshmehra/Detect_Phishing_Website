@@ -5,7 +5,7 @@ import re#-1 for phising or 1 for legitimate
 def category1(url):
         
     match = re.search('[0-9]{1,3}[.]+?[0-9]{1,3}[.]+?[0-9]{0,3}[.]+?[0-9]{1,3}',url)
-    file_obj = open(r'D:\AI\week3\Phishing\phishing5.txt','w')
+    file_obj = open(r'phishing5.txt','w')
     if match!=None:
         file_obj.write('-1,')
     else:
