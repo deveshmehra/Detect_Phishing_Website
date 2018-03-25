@@ -18,9 +18,9 @@ p3.category3(website)
 p4.category4(website)
 
 
-read = pd.read_csv(r'D:\AI\week3\Phishing\phishing5.txt',header = None,sep = ',')
+read = pd.read_csv(r'phishing5.txt',header = None,sep = ',')
 read = read.iloc[:,:-1].values
-dataset = pd.read_csv(r'D:\AI\week3\Phishing\Training Dataset1.csv')
+dataset = pd.read_csv(r'Training Dataset1.csv')
 X = dataset.iloc[:,:-1].values 	
 y = dataset.iloc[:,-1].values
 
