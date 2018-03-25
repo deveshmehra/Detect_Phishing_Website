@@ -6,7 +6,7 @@ import urllib.request
 
 def category4(website):
         
-    file_obj = open(r'D:\AI\week3\Phishing\phishing5.txt','a')
+    file_obj = open(r'phishing5.txt','a')
     #15Age of Domain
     
     whois_page = whois.whois(website)
